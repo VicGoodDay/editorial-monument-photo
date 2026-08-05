@@ -24,15 +24,15 @@ cp -R editorial-monument-photo ~/.codex/skills/
 ## Quick prompts
 
 ```text
-Use editorial-monument-photo to create a 3:4 Shanghai landmark poster.
-Hero word: SHANGHAI.
+Use editorial-monument-photo to create a 3:4 Paris landmark poster.
+Hero word: PARIS.
 Sunny natural daylight, original building colors, simple foreground.
 ```
 
 ```text
-用 editorial-monument-photo 做一张 3:4 北京天坛海报。
-主词：BEIJING。
-晴天自然光，保留建筑本身颜色，前景简单。
+用 editorial-monument-photo 做一张 3:4 巴黎埃菲尔铁塔海报。
+主词：PARIS。
+晴天自然光，保留铁塔和城市本身颜色，前景简单。
 ```
 
 ## Production note
