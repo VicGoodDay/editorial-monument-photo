@@ -5,25 +5,25 @@ The skill can be invoked in multiple languages. Keep the hero word exact.
 ## City landmark
 
 ```text
-Use editorial-monument-photo to create a vertical 3:4 editorial poster of the Oriental Pearl Tower in Shanghai.
-Hero word: SHANGHAI.
-Sunny natural daylight, keep the tower's original colors, no old-photo filter, no grey haze.
+Use editorial-monument-photo to create a vertical 3:4 editorial poster of the Eiffel Tower in Paris.
+Hero word: PARIS.
+Sunny natural daylight, keep the tower's original iron color and the city's natural tones, no old-photo filter, no grey haze.
 The landmark should be the single dominant subject.
-Keep foreground simple: a clean river strip and minimal skyline only.
+Keep foreground simple: quiet pavement or a low tree line only.
 Hero word in muted brick-red ultra-condensed uppercase, behind the tower, with 5-8% side safe margins.
-Exact readable text: SHANGHAI only.
+Exact readable text: PARIS only.
 ```
 
 ## Long city name
 
 ```text
-Use editorial-monument-photo to create a vertical 3:4 poster of Hongya Cave in Chongqing.
-Hero word: CHONGQING.
-Bright natural daylight, retain the building's brown wood and stone colors.
-Avoid busy foregrounds, crowds, boats, bridges, heavy traffic, and dense trees.
+Use editorial-monument-photo to create a vertical 3:4 poster of the Santa Justa Lift in Lisbon.
+Hero word: LISBON.
+Bright natural daylight, retain the landmark's iron structure and warm city colors.
+Avoid busy foregrounds, crowds, cars, tram clutter, heavy traffic, and dense trees.
 Use tighter ultra-condensed type and safe margins instead of cropping the word or adding a border.
-The building should feel medium-close, not oversized and not too far away.
-Exact readable text: CHONGQING only.
+The landmark should feel medium-close, not oversized and not too far away.
+Exact readable text: LISBON only.
 ```
 
 ## Person poster
@@ -40,19 +40,19 @@ No glamour retouching, no advertising smile, no extra readable text.
 ## Text-free base for final typography
 
 ```text
-Use editorial-monument-photo to create a vertical 3:4 text-free base image of the Temple of Heaven in Beijing.
+Use editorial-monument-photo to create a vertical 3:4 text-free base image of the Flatiron Building in New York.
 Do not render any letters or words.
-Reserve a clean warm ivory background zone behind the roof for later typography.
-Preserve natural overlap around the roofline for deterministic text overlay.
-Sunny natural daylight, keep the original blue roof and red architectural colors.
+Reserve a clean warm ivory background zone behind the building for later typography.
+Preserve natural overlap around the building edges for deterministic text overlay.
+Sunny natural daylight, keep the original stone facade color.
 Simple foreground, no crowds, no busy trees, no invented seals or captions.
 ```
 
 ## 中文调用
 
 ```text
-用 editorial-monument-photo 做一张 3:4 深圳人物海报。
-人物：一位真实的女性产品负责人，在安静办公室里，三分之四半身像。
+用 editorial-monument-photo 做一张 3:4 巴黎人物海报。
+人物：一位真实的女性策展人，在安静的博物馆档案室里，三分之四半身像。
 主词：BUILDER。
 暖纸底，砖红色超窄大字在人物背后，人物自然遮挡部分字，脸部保持清楚。
 不要商业广告感，不要磨皮，不要多余文字。
