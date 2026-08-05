@@ -50,9 +50,9 @@ Do not render any letters or words. Reserve a clean, high-contrast background ty
 
 ## Compact invocation examples
 
-- `用 $editorial-monument-photo 做一张上海街景，主词 SHANGHAI，4:5，阴天纪实。`
+- `用 $editorial-monument-photo 做一张巴黎埃菲尔铁塔海报，主词 PARIS，4:5，晴天纪实。`
 - `用 $editorial-monument-photo 做一张女性创始人的环境人物图，主词 BUILDER，暖纸砖红，办公室实景。`
-- `用 $editorial-monument-photo 把这座建筑做成复古编辑海报，只保留主词 SUZHOU。`
+- `用 $editorial-monument-photo 把这座建筑做成编辑感海报，只保留主词 LISBON。`
 - `Use $editorial-monument-photo to create a 3:4 portrait poster of a museum curator, hero word MAKER, warm paper and brick-red typography.`
 - `Usa $editorial-monument-photo para crear un póster vertical 3:4 de Madrid, palabra principal MADRID, luz natural y tipografía roja detrás del edificio.`
 - `Utilise $editorial-monument-photo pour créer une affiche éditoriale 3:4 de Paris, mot principal PARIS, lumière naturelle et sujet photoréaliste.`
