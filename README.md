@@ -62,8 +62,8 @@ cp -R editorial-monument-photo ~/.codex/skills/
 Then invoke it naturally:
 
 ```text
-Use editorial-monument-photo to make a 3:4 Shanghai landmark poster.
-Hero word: SHANGHAI.
+Use editorial-monument-photo to make a 3:4 Paris landmark poster.
+Hero word: PARIS.
 ```
 
 ## Recommended usage
@@ -81,18 +81,18 @@ For stable results, provide:
 Example:
 
 ```text
-Use editorial-monument-photo to create a vertical 3:4 poster of the Temple of Heaven in Beijing.
-Hero word: BEIJING.
-Sunny natural daylight, keep the original building colors, no vintage grey filter.
+Use editorial-monument-photo to create a vertical 3:4 poster of the Eiffel Tower in Paris.
+Hero word: PARIS.
+Sunny natural daylight, keep the original tower and city colors, no vintage grey filter.
 Simple foreground, one dominant landmark, safe margins for the hero word.
 ```
 
-Chinese example:
+Chinese invocation example:
 
 ```text
-用 editorial-monument-photo 做一张 3:4 北京天坛海报。
-主词：BEIJING。
-晴天自然光，保留建筑原本颜色，不要做旧发灰。
+用 editorial-monument-photo 做一张 3:4 巴黎埃菲尔铁塔海报。
+主词：PARIS。
+晴天自然光，保留铁塔和城市原本颜色，不要做旧发灰。
 前景简单，一个主体，大字左右留安全距离。
 ```
 
