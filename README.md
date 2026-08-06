@@ -1,4 +1,4 @@
-# Editorial Monument Photo Skill
+# Editorial Poster Skill
 
 A Codex skill for creating restrained editorial poster images that combine:
 
@@ -18,7 +18,7 @@ The skill helps an AI agent generate poster-style images with a consistent visua
 - city landmark posters
 - real street / interior posters
 - environmental portrait posters
-- Social media, such as Instagram and Xiaohongshu-style vertical covers
+- Xiaohongshu-style vertical covers
 - editorial travel or culture visuals
 
 It includes rules for:
@@ -31,16 +31,17 @@ It includes rules for:
 - text reliability and deterministic overlay fallback
 - QA rejection criteria
 - multilingual prompting and deterministic text overlay fallback
+- optional user-specified background colors and restrained palette pairing
 
 ## Repository structure
 
 ```text
-editorial-monument-photo-skill-github/
+editorial-poster-skill-github/
   README.md
   LICENSE
   examples/
     prompts.md
-  editorial-monument-photo/
+  editorial-poster/
     SKILL.md
     agents/
       openai.yaml
@@ -51,18 +52,18 @@ editorial-monument-photo-skill-github/
 
 ## Installation
 
-Copy the `editorial-monument-photo/` folder into your Codex skills directory.
+Copy the `editorial-poster/` folder into your Codex skills directory.
 
 Example:
 
 ```bash
-cp -R editorial-monument-photo ~/.codex/skills/
+cp -R editorial-poster ~/.codex/skills/
 ```
 
 Then invoke it naturally:
 
 ```text
-Use editorial-monument-photo to make a 3:4 Paris landmark poster.
+Use editorial-poster to make a 3:4 Paris landmark poster.
 Hero word: PARIS.
 ```
 
@@ -75,22 +76,32 @@ For stable results, provide:
 - exact hero word
 - aspect ratio
 - lighting / mood
+- background color or palette, if relevant
 - prompt language, if relevant
 - whether text must be production-perfect
 
 Example:
 
 ```text
-Use editorial-monument-photo to create a vertical 3:4 poster of the Eiffel Tower in Paris.
+Use editorial-poster to create a vertical 3:4 poster of the Eiffel Tower in Paris.
 Hero word: PARIS.
 Sunny natural daylight, keep the original tower and city colors, no vintage grey filter.
 Simple foreground, one dominant landmark, safe margins for the hero word.
 ```
 
+Color example:
+
+```text
+Use editorial-poster to create a vertical 3:4 poster of the Eiffel Tower in Paris.
+Hero word: PARIS.
+Background color: dusty blue-grey.
+Use muted terracotta typography, preserve the tower's natural iron color, no neon or glossy gradient.
+```
+
 Chinese invocation example:
 
 ```text
-用 editorial-monument-photo 做一张 3:4 巴黎埃菲尔铁塔海报。
+用 editorial-poster 做一张 3:4 巴黎埃菲尔铁塔海报。
 主词：PARIS。
 晴天自然光，保留铁塔和城市原本颜色，不要做旧发灰。
 前景简单，一个主体，大字左右留安全距离。
