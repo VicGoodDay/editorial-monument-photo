@@ -1,4 +1,0 @@
-interface:
-  display_name: "Editorial Monument Photo"
-  short_description: "Create restrained editorial place and portrait poster images"
-  default_prompt: "Use $editorial-monument-photo to create a restrained editorial poster image from my subject, location, and exact title."
