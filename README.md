@@ -18,7 +18,7 @@ The skill helps an AI agent generate poster-style images with a consistent visua
 - city landmark posters
 - real street / interior posters
 - environmental portrait posters
-- Xiaohongshu-style vertical covers
+- Social media, such as Instagram and Xiaohongshu-style vertical covers
 - editorial travel or culture visuals
 
 It includes rules for:
