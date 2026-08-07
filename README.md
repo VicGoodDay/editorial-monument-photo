@@ -33,6 +33,22 @@ It includes rules for:
 - multilingual prompting and deterministic text overlay fallback
 - optional user-specified background colors and restrained palette pairing
 
+## Example outputs
+
+These samples show the range the skill is designed to control: landmark posters, environmental portraits, custom palettes, and high-impact editorial color systems.
+
+| Landmark / dusty palette | Landmark / charcoal palette |
+|---|---|
+| ![Paris Eiffel Tower editorial poster](examples/gallery/paris-eiffel-dusty-blue.jpg) | ![New York Empire State Building editorial poster](examples/gallery/new-york-empire-charcoal.jpg) |
+
+| Landmark / classic city poster | Portrait / warm editorial |
+|---|---|
+| ![Shanghai Oriental Pearl Tower editorial poster](examples/gallery/shanghai-oriental-pearl.jpg) | ![VISION creative director editorial poster](examples/gallery/vision-creative-director.jpg) |
+
+| Portrait / cool editorial | Portrait / cinematic red |
+|---|---|
+| ![Female DESIGN editorial poster](examples/gallery/female-design-dusty-blue.jpg) | ![Female RED cinematic editorial poster](examples/gallery/female-red-cinematic.jpg) |
+
 ## Repository structure
 
 ```text
@@ -40,6 +56,7 @@ editorial-poster-skill-github/
   README.md
   LICENSE
   examples/
+    gallery/
     prompts.md
   editorial-poster/
     SKILL.md
